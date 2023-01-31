@@ -1,32 +1,13 @@
 /*Contacto*/
-
-.contacto__main {
-    background-color:$colorfondo;
-    justify-content: center;
-
-    &__itemcontacto {
-            color: $colorfondo;
-            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-            font-weight: bolder;
-            font-size: $tamañoletracontacto;
-            padding: $paddingparrafo;
-            border: 1rem;
-            text-align: justify; 
-            }
-
-     &__boton {
-                margin: 0.5rem; 
-                display: block;
-                padding: 0.5rem;
-                color: $colorfondo;
-                font-family: 'Bebas Neue', cursive;
-                font-weight: bolder;
-                font-size: $tamañoh;
-                text-align: justify;   
-                text-align: center;
-                }
-}    
-
+.contacto__form {
+    background-image: url(../img/fotocontactos.jpg);
+    max-width: 40rem;
+    width: 100%;
+    padding: 2rem;
+    margin: auto; 
+    display: block;
+    }
+    
 .texto__contacto {
     color: $colorletraestandar;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -76,15 +57,31 @@
             }       
     }
 
-    .contacto__form {
-        background-image: url(../img/fotocontactos.jpg);
-        max-width: 40rem;
-        width: 100%;
-        padding: 2rem;
-        margin: auto; 
-        display: block;
-        }
-
-
+          .contacto__main {
+            background-color:$colorfondo;
+            justify-content: center;
+        
+            &__itemcontacto {
+                    color: $colorfondo;
+                    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+                    font-weight: bolder;
+                    font-size: $tamañoletracontacto;
+                    padding: $paddingparrafo;
+                    border: 1rem;
+                    text-align: justify; 
+                    }
+        
+             &__boton {
+                        margin: 0.5rem; 
+                        display: block;
+                        padding: 0.5rem;
+                        color: $colorfondo;
+                        font-family: 'Bebas Neue', cursive;
+                        font-weight: bolder;
+                        font-size: $tamañoh;
+                        text-align: justify;   
+                        text-align: center;
+                        }
+        }   
 /* cierre del contacto */
 /**/

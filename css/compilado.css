@@ -151,27 +151,13 @@
 /* Cierre de Main*/
 /**/
 /*Contacto*/
-.contacto__main {
-  background-color: #000000;
-  justify-content: center; }
-  .contacto__main__itemcontacto {
-    color: #000000;
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-weight: bolder;
-    font-size: 1.5rem;
-    padding: 1rem 3rem 1rem 3rem;
-    border: 1rem;
-    text-align: justify; }
-  .contacto__main__boton {
-    margin: 0.5rem;
-    display: block;
-    padding: 0.5rem;
-    color: #000000;
-    font-family: 'Bebas Neue', cursive;
-    font-weight: bolder;
-    font-size: 2rem;
-    text-align: justify;
-    text-align: center; }
+.contacto__form {
+  background-image: url(../img/fotocontactos.jpg);
+  max-width: 40rem;
+  width: 100%;
+  padding: 2rem;
+  margin: auto;
+  display: block; }
 
 .texto__contacto {
   color: #fdfdfd;
@@ -212,13 +198,27 @@
     text-align: center;
     padding: 2rem; }
 
-.contacto__form {
-  background-image: url(../img/fotocontactos.jpg);
-  max-width: 40rem;
-  width: 100%;
-  padding: 2rem;
-  margin: auto;
-  display: block; }
+.contacto__main {
+  background-color: #000000;
+  justify-content: center; }
+  .contacto__main__itemcontacto {
+    color: #000000;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding: 1rem 3rem 1rem 3rem;
+    border: 1rem;
+    text-align: justify; }
+  .contacto__main__boton {
+    margin: 0.5rem;
+    display: block;
+    padding: 0.5rem;
+    color: #000000;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: justify;
+    text-align: center; }
 
 /* cierre del contacto */
 /**/
