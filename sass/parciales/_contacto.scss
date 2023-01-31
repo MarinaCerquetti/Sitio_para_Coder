@@ -51,15 +51,6 @@
         padding: $paddingparrafo;
         text-align: justify;
     }
-
-    &__form {
-            background-image: url(../img/fotocontactos.jpg);
-            max-width: 40rem;
-            width: 100%;
-            padding: 2rem;
-            margin: auto; 
-            display: block;
-            }
             
     &__select   {
             margin: 0rem 0rem 0.2rem 0rem;
@@ -84,6 +75,15 @@
             padding: 2rem;
             }       
     }
+
+    .contacto__form {
+        background-image: url(../img/fotocontactos.jpg);
+        max-width: 40rem;
+        width: 100%;
+        padding: 2rem;
+        margin: auto; 
+        display: block;
+        }
 
 
 /* cierre del contacto */
