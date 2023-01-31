@@ -1,0 +1,135 @@
+/*Main*/
+
+.main {
+    background-color: black;
+    max-width: 200rem;
+
+    &__h1 {
+        color: $colormarca;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: $tamañoh1;
+        padding: $paddingh;
+    }
+
+    &__h2 {
+        color: $colorletraestandar;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: $tamañoh;
+        padding:  $paddingh;
+    }
+    
+    &__h2especial {
+        color: $colormarca;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bold;
+        text-align: left;
+        font-size: $tamañoh + 1rem;
+        padding:  $paddingh;
+        background-color: black;
+    }
+    
+    &__h3 {
+        color: $colorletraestandar;
+        font-family: 'Bebas Neue', cursive;
+        text-align: left;
+        font-weight: bold;
+        font-size: $tamañoh;
+        padding:  $paddingh;
+    }
+
+    &__div {
+        display:block;
+         margin: auto;
+         text-align: center;
+     }
+
+     &__img {
+        max-width: 50rem;
+        align-self: center;
+        padding: $paddingfoto;
+    }
+
+    &__video {
+        max-width: 300rem;
+        align-self: center;
+        padding: $paddingvideo ;
+    }
+        
+    &__p {
+        color: $colorletraestandar;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1rem;
+        padding: $paddingparrafo;
+        text-align: justify;
+    }
+    
+    &__top10 {
+        max-width: 110rem;
+        padding: $paddingfoto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: space-between;
+        list-style: none;
+    }
+    
+    &__item {
+        text-decoration: none;
+        color: $colorletraestandar;
+        max-width:21rem;
+        text-justify: distribute;
+    }
+    
+    &__aamazon {
+        color: $colormarca;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight:bolder;
+        font-size: $tamañoletraestandar - 0.25rem;
+        padding: 1rem 3rem 2rem 3rem;
+        text-align: justify;
+    }
+    
+    &__secflex {
+        max-width: 150rem;
+        padding: $paddingfoto;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: space-between;
+    }
+    
+    &__pflex {
+        text-decoration: none;
+        color: $colorletraestandar;
+        max-width:28rem;
+        text-justify: distribute;
+    }
+    
+    &__pflexmin {
+        text-decoration: none;
+        color: $colorletraestandar;
+        max-width:35rem;
+        text-justify: distribute;
+    }
+    
+    &__imgmin {
+        max-width: 22rem;
+        align-self: center;
+        padding: 2rem;
+    }
+
+}
+
+/* Cierre de Main*/
+/**/

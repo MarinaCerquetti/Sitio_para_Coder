@@ -1,0 +1,54 @@
+/* header */
+.header {
+    width: 100%;
+    background-color: $colorfondo;
+
+    &__img {
+        width: 100%;
+    }
+    
+    &__nav {
+        background-image: url(../img/fotonavyfooter.jpg);
+        width: 100%;
+        padding: 1rem 2rem 1rem 2rem  ;
+    }
+    
+    &__navlist {
+        max-width: 250rem;
+        padding: 1rem 3rem 1rem 3rem;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+        align-items: center;
+        align-content: space-between;
+        list-style: none;
+    }
+
+}
+
+.headeritem {
+    text-decoration: none;
+    max-width:40rem;
+    padding: 0rem 5rem 0rem 5rem;
+}
+
+.header__navitema {
+    color: $colorfondo;
+    font-family: 'Bebas Neue', cursive;
+    align-self: left;
+    font-size: $tamañoh1;
+    text-decoration: none;
+}
+
+.header__navitem--activo {
+    color: $colorletraestandar;
+    font-family: 'Bebas Neue', cursive;
+    align-self: left;
+    font-size: $tamañoh1+0.25rem;
+}
+
+/* cierre de header */
+
+/**/

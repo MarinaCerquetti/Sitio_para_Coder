@@ -1,0 +1,61 @@
+/*footer*/
+
+.footer  {
+    background-image: url(../img/fotonavyfooter.jpg);
+    width: 100%;
+
+    &__p1 {
+        color: $colorfondo;
+        font-family: 'Bebas Neue', cursive;
+        font-weight: bolder;
+        font-size: $tamañoh;
+        padding: $paddingfooter;
+        text-align: center;
+    }
+
+    &__p2 {
+        color: $colorfondo;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        padding: $paddingfooter;
+        text-align: center;
+    }
+    
+    &__pespecial {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+        color: $colorletraestandar;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 1.5rem;
+        padding: 0.1rem 2rem 0.1rem 2rem;
+        text-align:center;
+        background-color: $colorfondo;
+    }
+    
+    &__img {
+        width: 5rem;
+        height: 5rem;
+        padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+        align-self: center;
+    }
+    
+    &__a {
+        color: rgb(255, 0, 0);
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 1.2rem;
+        padding:  0.5rem 0rem 0rem 0.5rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+}
+
+/*cierre del footer */
+/**/
