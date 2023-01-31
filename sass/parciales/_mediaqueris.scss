@@ -115,7 +115,7 @@
     .main__video {
         max-width: 100rem;
         align-self: center;
-        margin:  1rem 2rem 1rem 2rem ;
+       padding: $paddingvideo;
          }
     
     .main__aamazon {
@@ -313,7 +313,7 @@
 .main__video {
     max-width: 80rem;
     align-self: center;
-    margin:  1rem 2rem 1rem 2rem ;
+   padding: $paddingvideo ;
      }
 
 .main__aamazon {
@@ -497,7 +497,7 @@
 .main__video {
     max-width: 18rem;
     align-self: center;
-    margin:  0.5rem 0.7rem 0.5rem 0.7rem ;
+   padding: $paddingvideo;
      }
 
 .main__aamazon {
