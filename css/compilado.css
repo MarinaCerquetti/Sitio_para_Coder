@@ -357,7 +357,7 @@
     align-self: center;
     padding: 2rem; }
   .main__video {
-    max-width: 100rem;
+    max-width: 50rem;
     align-self: center;
     padding: 2rem 5rem 5rem 5rem; }
   .main__aamazon {
@@ -496,20 +496,20 @@
   .main__pflexmin {
     text-decoration: none;
     color: white;
-    max-width: 21rem;
+    max-width: 12rem;
     text-justify: distribute; }
   .main__img {
-    max-width: 38rem;
+    max-width: 30rem;
     align-self: center;
-    padding: 1.5rem; }
+    padding: 0.5rem; }
   .main__imgmin {
-    max-width: 20rem;
+    max-width: 12rem;
     align-self: center;
-    padding: 1.5rem; }
+    padding: 2rem; }
   .main__video {
-    max-width: 38rem;
+    max-width: 30rem;
     align-self: center;
-    padding: 1.5rem; }
+    padding: 2rem 5rem 5rem 5rem; }
   .main__aamazon {
     color: #63ff02;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -641,16 +641,20 @@
   .main__pflexmin {
     text-decoration: none;
     color: white;
-    max-width: 14rem;
+    max-width: 11rem;
     text-justify: distribute; }
   .main__img {
-    max-width: 16rem;
+    max-width: 11rem;
     align-self: center;
     padding: 0.5rem; }
+  .main__imgmin {
+    max-width: 11rem;
+    align-self: center;
+    padding: 2rem; }
   .main__video {
-    max-width: 16rem;
+    max-width: 11rem;
     align-self: center;
-    padding: 0.5rem; }
+    padding: 2rem 5rem 5rem 5rem; }
   .main__aamazon {
     color: #63ff02;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
