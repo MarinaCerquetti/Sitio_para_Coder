@@ -341,7 +341,7 @@
   .main__pflex {
     text-decoration: none;
     color: white;
-    max-width: 20rem;
+    max-width: 50rem;
     text-justify: distribute; }
   .main__pflexmin {
     text-decoration: none;
@@ -491,7 +491,7 @@
   .main__pflex {
     text-decoration: none;
     color: white;
-    max-width: 22rem;
+    max-width: 26rem;
     text-justify: distribute; }
   .main__pflexmin {
     text-decoration: none;
@@ -499,7 +499,7 @@
     max-width: 12rem;
     text-justify: distribute; }
   .main__img {
-    max-width: 30rem;
+    max-width: 26rem;
     align-self: center;
     padding: 0.5rem; }
   .main__imgmin {
@@ -507,7 +507,7 @@
     align-self: center;
     padding: 2rem; }
   .main__video {
-    max-width: 30rem;
+    max-width: 26rem;
     align-self: center;
     padding: 2rem 5rem 5rem 5rem; }
   .main__aamazon {
@@ -641,18 +641,18 @@
   .main__pflexmin {
     text-decoration: none;
     color: white;
-    max-width: 11rem;
+    max-width: 13rem;
     text-justify: distribute; }
   .main__img {
-    max-width: 11rem;
+    max-width: 13rem;
     align-self: center;
     padding: 0.5rem; }
   .main__imgmin {
-    max-width: 11rem;
+    max-width: 13rem;
     align-self: center;
     padding: 2rem; }
   .main__video {
-    max-width: 11rem;
+    max-width: 13rem;
     align-self: center;
     padding: 2rem 5rem 5rem 5rem; }
   .main__aamazon {

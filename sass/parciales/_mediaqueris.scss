@@ -89,7 +89,7 @@
     .main__pflex {
             text-decoration: none;
             color: rgb(255, 255, 255);
-            max-width:20rem;
+            max-width:50rem;
             text-justify: distribute;
         }
 
@@ -287,7 +287,7 @@
 .main__pflex {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        max-width:22rem;
+        max-width:26rem;
         text-justify: distribute;
     }
 
@@ -299,7 +299,7 @@
      }
 
 .main__img {
-    max-width: 30rem;
+    max-width: 26rem;
     align-self: center;
     padding: 0.5rem;
      }
@@ -311,7 +311,7 @@
     }
 
 .main__video {
-    max-width: 30rem;
+    max-width: 26rem;
     align-self: center;
    padding: $paddingvideo;
      }
@@ -484,24 +484,24 @@
      .main__pflexmin {
         text-decoration: none;
         color: rgb(255, 255, 255);
-        max-width:11rem;
+        max-width:13rem;
         text-justify: distribute;
          }
     
     .main__img {
-        max-width: 11rem;
+        max-width: 13rem;
         align-self: center;
         padding: 0.5rem;
          }
     
          .main__imgmin {
-            max-width: 11rem;
+            max-width: 13rem;
             align-self: center;
             padding: 2rem;
         }
     
     .main__video {
-        max-width: 11rem;
+        max-width: 13rem;
         align-self: center;
        padding: $paddingvideo;
          }
