@@ -346,14 +346,14 @@
   .main__pflexmin {
     text-decoration: none;
     color: white;
-    max-width: 18rem;
+    max-width: 20rem;
     text-justify: distribute; }
   .main__img {
     max-width: 50rem;
     align-self: center;
     padding: 0.5rem; }
   .main__imgmin {
-    max-width: 18rem;
+    max-width: 20rem;
     align-self: center;
     padding: 2rem; }
   .main__video {
@@ -496,14 +496,14 @@
   .main__pflexmin {
     text-decoration: none;
     color: white;
-    max-width: 12rem;
+    max-width: 18rem;
     text-justify: distribute; }
   .main__img {
     max-width: 26rem;
     align-self: center;
     padding: 0.5rem; }
   .main__imgmin {
-    max-width: 12rem;
+    max-width: 18rem;
     align-self: center;
     padding: 2rem; }
   .main__video {
@@ -641,14 +641,14 @@
   .main__pflexmin {
     text-decoration: none;
     color: white;
-    max-width: 13rem;
+    max-width: 15rem;
     text-justify: distribute; }
   .main__img {
     max-width: 13rem;
     align-self: center;
     padding: 0.5rem; }
   .main__imgmin {
-    max-width: 13rem;
+    max-width: 15rem;
     align-self: center;
     padding: 2rem; }
   .main__video {
